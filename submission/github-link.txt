@@ -1,0 +1,3 @@
+# 请将推送后的 GitHub 仓库地址填写在下方（删除本行注释）
+
+https://github.com/<你的用户名>/cursor-habit-tracker-skill

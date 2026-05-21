@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="每日习惯打卡追踪器 - 记录习惯、连续打卡、数据统计" />
+  <title>每日习惯 · Habit Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-text">
+        <h1>每日习惯</h1>
+        <p class="subtitle">坚持打卡，养成好习惯</p>
+      </div>
+      <time id="today-date" class="today-date" datetime=""></time>
+    </header>
+
+    <section class="stats-bar" aria-label="统计数据">
+      <div class="stat">
+        <span class="stat-value" id="stat-total">0</span>
+        <span class="stat-label">习惯总数</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="stat-today">0</span>
+        <span class="stat-label">今日已打卡</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="stat-best">0</span>
+        <span class="stat-label">最长连续</span>
+      </div>
+    </section>
+
+    <form id="add-form" class="add-form" aria-label="添加新习惯">
+      <input
+        type="text"
+        id="habit-name"
+        placeholder="输入习惯名称，如：晨跑、阅读"
+        maxlength="20"
+        required
+        autocomplete="off"
+      />
+      <div class="color-picker" role="group" aria-label="选择习惯颜色">
+        <!-- filled by JS -->
+      </div>
+      <button type="submit" class="btn btn-primary">添加习惯</button>
+    </form>
+
+    <main id="habit-list" class="habit-list" aria-live="polite"></main>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

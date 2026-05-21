@@ -1,0 +1,15 @@
+{
+  "name": "skill",
+  "version": "1.0.0",
+  "description": "本项目演示 **自定义 Cursor Agent Skill** 的创建方法，并使用该 Skill 指导开发「每日习惯」打卡 Web 应用。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
