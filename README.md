@@ -20,7 +20,7 @@
 
 将本仓库推送到 GitHub 后，分享链接格式：
 
-`https://github.com/<你的用户名>/cursor-habit-tracker-skill`
+https://github.com/ZHaozilu6689/habit-tracker-skill
 
 详细步骤见 [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md)。
 
