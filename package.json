@@ -6,8 +6,10 @@
   "directories": {
     "doc": "docs"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "screenshot": "node scripts/capture-screenshots.mjs",
+    "serve": "npx --yes serve app -p 3456"
   },
   "keywords": [],
   "author": "",
